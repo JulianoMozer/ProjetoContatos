@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Chivo&family=Dancing+Script&family=Exo+2&family=Kalam&family=Kaushan+Script&family=Lato:ital,wght@0,300;1,300&family=Lobster&family=Lora&family=Montserrat+Alternates:wght@300&family=Pacifico&family=Playpen+Sans&family=Poppins&family=Quicksand:wght@300;400&family=Roboto:wght@100;400&family=Satisfy&family=Sulphur+Point&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    color: #333;
+}
+
+body {
+    background-image: url('./images/contact-us.jpg'); /* Adicionei a imagem como plano de fundo */
+    background-size: cover; /* Garante que a imagem de fundo cubra todo o elemento body */
+    background-position: center; /* Centraliza a imagem de fundo */
+    display: flex;
+    margin: 0; /* Removi a margem para garantir que não haja espaços em branco em torno da imagem */
+    padding: 50px; /* Adicionei algum preenchimento para o conteúdo não ficar muito próximo das bordas */
+}
+
+.container {  
+    background-color: rgba(255, 255, 255, 0.9); /* Cor de fundo do contêiner com transparência */
+    width: 170%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 100px;
+}
+
+.title {
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    font-family: Lobster, cursive;
+    color: #333;
+}
+
+.fundo {
+    width: 100%;
+    height: 100px;
+    background-color: #4982fc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone {
+    width: 100px;
+}
+
+.form-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+header h1 {
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+
+/* Estilo para os campos de entrada */
+form input {  
+    font-size: 15px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+button {
+    font-weight: bold; /* Define o peso da fonte para negrito */
+    padding: 10px 20px;
+    font-family: Poppins, sans-serif;
+    background-color: #9bd5f7;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin: 0 4px;
+    color: #000;
+}
+
+button:hover {
+    background-color: #7cbdf1;
+}
+
+table {
+    width: 100%
+}
+
+table th {
+    border-bottom: 2px solid #ccc;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 16px;
+    background-color: #f9f9f9;
+}
+
+table td {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    background-color: #f9f9f9;
+}
+
+footer {
+    margin-top: 850px;
+    padding: 0px 0;
+    text-align: center;
+}
