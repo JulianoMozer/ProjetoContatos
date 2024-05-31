@@ -1,32 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- Define o conjunto de caracteres utilizado na página -->
     <meta charset="UTF-8">
+    <!-- Ajusta a visualização para dispositivos móveis -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página -->
     <title>Agenda</title>
+    <!-- Link para o arquivo CSS externo -->
     <link rel="stylesheet" href="./main.css">
+    <!-- Link para o favicon da página -->
     <link rel="favicon" href="./images/OIP.jpg" type="agenda/contatos/add" />
 </head>
 <body>
+    <!-- Container de fundo da página -->
     <div class="background-container">
+        <!-- Container principal da página -->
         <div class="container">
+            <!-- Cabeçalho da página -->
             <header class="header">
+                <!-- Título da página -->
                 <h1 class="title">Contatos</h1>
+                <!-- Div para o fundo do ícone -->
                 <div class="fundo">
+                    <!-- Imagem do ícone -->
                     <img class="icone" src="./images/OIP.jpg" alt="Pessoas conectadas">
                 </div>
             </header>
+            <!-- Container do formulário -->
             <div class="form-container">
+                <!-- Formulário para adicionar contatos -->
                 <form id="form-contatos">
+                    <!-- Campo para digitar o nome -->
                     <input type="text" id="nome" required placeholder="Digite o Nome" />
+                    <!-- Campo para digitar o telefone -->
                     <input type="tel" id="telefone" required placeholder="Digite seu nº celular" />
+                    <!-- Botões do formulário -->
                     <div class="buttons">
+                        <!-- Botão para salvar o contato -->
                         <button type="submit">SALVAR</button>
+                        <!-- Botão para resetar os campos do formulário -->
                         <button type="reset">APAGAR</button>
+                        <!-- Botão para limpar todos os contatos -->
                         <button type="button" id="reset">LIMPAR CONTATOS</button>
                     </div>
                 </form>
             </div>
+            <!-- Tabela para exibir os contatos -->
             <table cellspacing="0">
                 <thead>
                     <tr>
@@ -38,10 +58,11 @@
             </table>
         </div>
     </div>
+    <!-- Link para o arquivo JavaScript externo -->
     <script src="./main.js"></script>
+    <!-- Rodapé da página -->
     <footer>
         <p>Juliano Mozer - Todos os direitos reservados - 2024</p>
     </footer>
 </body>
 </html>
-

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Chivo&family=Dancing+Script&family=Exo+2&family=Kalam&family=Kaushan+Script&family=Lato:ital,wght@0,300;1,300&family=Lobster&family=Lora&family=Montserrat+Alternates:wght@300&family=Pacifico&family=Playpen+Sans&family=Poppins&family=Quicksand:wght@300;400&family=Roboto:wght@100;400&family=Satisfy&family=Sulphur+Point&display=swap');
 
+/* Reset de margens e paddings padrão, define a fonte padrão e a cor do texto */
 * {
     margin: 0;
     padding: 0;
@@ -7,124 +8,137 @@
     color: #333;
 }
 
+/* Estilo para o corpo da página */
 body {
-    background-image: url('./images/contact-us.jpg'); /* Adicionei a imagem como plano de fundo */
-    background-size: cover; /* Garante que a imagem de fundo cubra todo o elemento body */
+    background-image: url('./images/contact-us.jpg'); /* Imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra todo o elemento body */
     background-position: center; /* Centraliza a imagem de fundo */
     display: flex;
-    margin: 0; /* Removi a margem para garantir que não haja espaços em branco em torno da imagem */
-    padding: 50px; /* Adicionei algum preenchimento para o conteúdo não ficar muito próximo das bordas */
+    margin: 0; /* Remove margens padrão */
+    padding: 50px; /* Adiciona preenchimento para evitar que o conteúdo fique muito próximo das bordas */
 }
 
+/* Estilo para o contêiner principal */
 .container {  
-    background-color: rgba(255, 255, 255, 0.9); /* Cor de fundo do contêiner com transparência */
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
     width: 170%;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-left: 200px;
+    border-radius: 5px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para o contêiner */
+    margin-left: 200px; /* Margem esquerda */
 }
 
+/* Estilo para o cabeçalho */
 .header {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 40px 100px;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    padding: 40px 100px; /* Preenchimento ao redor */
 }
 
+/* Estilo para o título */
 .title {
-    text-transform: uppercase;
-    margin-bottom: 18px;
-    font-family: Lobster, cursive;
-    color: #333;
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    margin-bottom: 18px; /* Espaçamento inferior */
+    font-family: Lobster, cursive; /* Fonte personalizada */
+    color: #333; /* Cor do texto */
 }
 
+/* Estilo para o fundo do ícone */
 .fundo {
     width: 100%;
     height: 100px;
-    background-color: #4982fc;
+    background-color: #4982fc; /* Cor de fundo azul */
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
 }
 
+/* Estilo para a imagem do ícone */
 .icone {
     width: 100px;
 }
 
+/* Estilo para o contêiner do formulário */
 .form-container { 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column; /* Organiza os elementos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
     width: 100%;
 }
 
+/* Estilo para o título no cabeçalho */
 header h1 {
-    font-family: Poppins, sans-serif;
+    font-family: Poppins, sans-serif; /* Fonte personalizada */
     font-size: 24px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #333;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    color: #333; /* Cor do texto */
 }
 
-
-/* Estilo para os campos de entrada */
+/* Estilo para os campos de entrada do formulário */
 form input {  
     font-size: 15px;
-    background-color: #f9f9f9;
-    padding: 10px;
-    border-radius: 5px;
-    outline: none;
-    border: 1px solid #ccc;
-    color: #333;
+    background-color: #f9f9f9; /* Fundo cinza claro */
+    padding: 10px; /* Preenchimento interno */
+    border-radius: 5px; /* Cantos arredondados */
+    outline: none; /* Remove o contorno padrão */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    color: #333; /* Cor do texto */
 }
 
-
+/* Estilo para o contêiner dos botões */
 .buttons {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin-top: 15px; /* Espaçamento superior */
 }
 
+/* Estilo para os botões */
 button {
-    font-weight: bold; /* Define o peso da fonte para negrito */
-    padding: 10px 20px;
-    font-family: Poppins, sans-serif;
-    background-color: #9bd5f7;
-    cursor: pointer;
-    border-radius: 5px;
-    border: none;
-    margin: 0 4px;
-    color: #000;
+    font-weight: bold; /* Fonte em negrito */
+    padding: 10px 20px; /* Preenchimento interno */
+    font-family: Poppins, sans-serif; /* Fonte personalizada */
+    background-color: #9bd5f7; /* Cor de fundo azul claro */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    border-radius: 5px; /* Cantos arredondados */
+    border: none; /* Remove a borda */
+    margin: 0 4px; /* Espaçamento entre os botões */
+    color: #000; /* Cor do texto */
 }
 
+/* Estilo para os botões ao passar o mouse */
 button:hover {
-    background-color: #7cbdf1;
+    background-color: #7cbdf1; /* Cor de fundo azul mais escuro */
 }
 
+/* Estilo para a tabela */
 table {
-    width: 100%
+    width: 100%;
 }
 
+/* Estilo para os cabeçalhos da tabela */
 table th {
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #ccc; /* Borda inferior */
     font-size: 15px;
-    font-weight: bold;
-    padding: 16px;
-    background-color: #f9f9f9;
+    font-weight: bold; /* Fonte em negrito */
+    padding: 16px; /* Preenchimento interno */
+    background-color: #f9f9f9; /* Fundo cinza claro */
 }
 
+/* Estilo para as células da tabela */
 table td {
-    text-align: center;
-    padding: 10px 0px 10px 0px;
-    background-color: #f9f9f9;
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Preenchimento interno */
+    background-color: #f9f9f9; /* Fundo cinza claro */
 }
 
+/* Estilo para o rodapé */
 footer {
-    margin-top: 850px;
-    padding: 0px 0;
-    text-align: center;
+    margin-top: 850px; /* Espaçamento superior */
+    padding: 0; /* Remove o preenchimento */
+    text-align: center; /* Centraliza o texto */
 }
